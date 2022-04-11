@@ -11,6 +11,8 @@ case "${layout}${variant}" in
     fr)
         setxkbmap fr bepo;;
     frbepo)
+        setxkbmap fr dvorak;;
+    frdvorak)
         setxkbmap us;;
     *)
         setxkbmap fr
